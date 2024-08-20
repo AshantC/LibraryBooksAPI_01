@@ -12,10 +12,9 @@ Then create the virtual environment
 ```
 python -m venv venv
 ```
-Go to the app directory
+Go to the app directory and install the requirenments.txt file
 ```
 cd app
-```
 pip install -r requirenments.txt
 ```
 Finally, to start the server use the following command: 
