@@ -1,4 +1,4 @@
-# Task to create a simple CRUD (Create, Read, Update, Delete) API for managing a collection	of books in	a library.
+# Task to create a simple CRUD (Create, Read, Update, Delete) API for managing a collection	of books in	a library using FastAPI (a Python Framework), MongoDB (for database) and Docker Compose.
 
 ## How to start the application
 
