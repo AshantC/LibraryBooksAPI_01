@@ -2,7 +2,7 @@
 
 ## How to start the application
 
-** The commands: **
+### The commands:
 First you have to git clone the files by entering in your terminal:
 
 ```
