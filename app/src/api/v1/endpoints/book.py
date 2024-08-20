@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from schemas.schema import all_books
-from core.database import collection
-from models.model import Books
+from src.schemas.schema import all_books
+from src.core.database import collection
+from src.models.model import Books
 from bson import ObjectId
 
 router = APIRouter()

@@ -27,6 +27,6 @@ Finally, to start the server use the following command:
 uvicorn main:app --reload
 ```
 
-### For visualizing the application, open up your browser and enter:
+### For visualizing the application in Swagger, open up your browser and enter:
 
 http://127.0.0.1:8000/docs
