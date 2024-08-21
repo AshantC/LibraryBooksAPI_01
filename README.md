@@ -33,7 +33,7 @@ cd app
 ```
 3. Install the dependencies:
 ```
-pip install -r requirenments.txt
+pip install -r requirements.txt
 ```
 4. Run the application:
 ```
