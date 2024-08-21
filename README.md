@@ -5,28 +5,63 @@
 2. MongoDB Desktop installed
 3. Docker Desktop installed
 
-## How to start the application
+## Features
+1. CRUD operations: Create, read, update, and delete books.
+2. MongoDB integration: Use MongoDB as the database.
+3. SOLID and Clean Architecture: The project is designed with modularity and separation of concerns in mind.
+4. Swagger documentation: Automatically generated API documentation with Swagger UI.
 
-### The commands:
-First you have to git clone the files by entering in your terminal:
+## Technologies
+1. FastAPI - Fast, modern web framework for building APIs.
+2. MongoDB - NoSQL database used for storing book records.
+3. Docker - Containerization platform for running the application.
+4. Pymongo & Motor - MongoDB drivers for interacting with the database.
 
+## Setup Instructions
+
+### Local Setup (Without Docker)
+
+1. Clone the repository:
 ```
 git clone https://github.com/AshantC/LibraryBooksAPI_01.git
 ```
-Then create the virtual environment
+2. Create a virtual environment and activate it:
 ```
 python -m venv venv
-```
-Go to the app directory and install the requirenments.txt file
-```
+venv/bin/activate
 cd app
+```
+3. Install the dependencies:
+```
 pip install -r requirenments.txt
 ```
-Finally, to start the server use the following command: 
+4. Run the application:
 ```
 uvicorn main:app --reload
 ```
+5. The API will be available at http://localhost:8000/docs
 
-### For visualizing the application in Swagger, open up your browser and enter:
 
-http://127.0.0.1:8000/docs
+## Usage
+Once the server is running, you can access the Swagger UI at:
+```
+http://localhost:8000/docs
+```
+
+## API Endpoints
+GET /books/: Retrieve all books
+POST /books/: Add a new book
+GET /books/{book_id}: Get details of a specific book by ID
+PUT /books/{book_id}: Update a book by ID
+DELETE /books/{book_id}: Delete a book by ID
+
+## Example JSON Payload for Creating/Updating a Book:
+```
+{
+  "title": "The Pragmatic Programmer",
+  "author": "Andrew Hunt, David Thomas",
+  "published_year": 1999,
+  "isbn": "978-0201616224",
+  "pages": 352
+}
+```
