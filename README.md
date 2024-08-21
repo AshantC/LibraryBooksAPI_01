@@ -28,7 +28,7 @@ git clone https://github.com/AshantC/LibraryBooksAPI_01.git
 2. Create a virtual environment and activate it:
 ```
 python -m venv venv
-venv/bin/activate
+venv\Scripts\activate
 cd app
 ```
 3. Install the dependencies:
