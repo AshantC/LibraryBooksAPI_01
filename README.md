@@ -49,11 +49,11 @@ http://localhost:8000/docs
 ```
 
 ## API Endpoints
-GET /books/: Retrieve all books
-POST /books/: Add a new book
-GET /books/{book_id}: Get details of a specific book by ID
-PUT /books/{book_id}: Update a book by ID
-DELETE /books/{book_id}: Delete a book by ID
+1. GET /books/: Retrieve all books
+2. POST /books/: Add a new book
+3. GET /books/{book_id}: Get details of a specific book by ID
+4. PUT /books/{book_id}: Update a book by ID
+5. DELETE /books/{book_id}: Delete a book by ID
 
 ## Example JSON Payload for Creating/Updating a Book:
 ```
